@@ -2,7 +2,7 @@ frutas = (
     "laranja",
     "pera",
     "uva",
-)
+) #boa pratica uma virgula no final para diferenciar dos parenteses de precedencia matematica
 print(frutas)
 
 letras = tuple("python")
