@@ -1,3 +1,4 @@
+# oconjunto é uma lista de itens unicos, não aceita itens duplicados
 numeros = set([1, 2, 3, 1, 3, 4])
 print(numeros)  # {1, 2, 3, 4}
 
