@@ -1,3 +1,8 @@
+'''
+João tem uam bicicletaria e gostaria deregistrar as vendas de suas bicletas.
+Crie um programa onde João inform: cor,modelo, ano evalor da bicleta vendida.
+Uma bicicleta pode: buzinar, parar e correr. Adicione esses comportamentos!
+'''
 class Bicicleta:
     def __init__(self, cor, modelo, ano, valor):
         self.cor = cor
