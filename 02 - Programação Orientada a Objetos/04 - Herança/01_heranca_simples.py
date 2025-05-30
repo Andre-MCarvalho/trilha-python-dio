@@ -20,8 +20,8 @@ class Carro(Veiculo):
 
 
 class Caminhao(Veiculo):
-    def __init__(self, cor, placa, numero_rodas, carregado):
-        super().__init__(cor, placa, numero_rodas)
+    def __init__(self, cor, placa, numero_rodas, carregado):# deve conter 
+        super().__init__(cor, placa, numero_rodas)# evoca os parametros da classe pai
         self.carregado = carregado
 
     def esta_carregado(self):
