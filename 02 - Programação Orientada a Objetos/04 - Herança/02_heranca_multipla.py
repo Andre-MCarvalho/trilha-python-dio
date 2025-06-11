@@ -23,7 +23,7 @@ class Gato(Mamifero):
 
 
 class Ornitorrinco(Mamifero, Ave):
-    def __init__(self, cor_bico, cor_pelo, nro_patas):
+    def __init__(self, cor_bico, cor_pelo, nro_patas): #se usar o **kw  entao devera o argumento tera que ter chave e valor
         super().__init__(cor_pelo=cor_pelo, cor_bico=cor_bico, nro_patas=nro_patas)
 
 
