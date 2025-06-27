@@ -15,7 +15,7 @@ class ControleRemoto(ABC):
     def marca(self):
         pass
 
-
+#NOTA: o objeto é obrigado a instanciar os métodos e propriedades abstratas 
 class ControleTV(ControleRemoto):
     def ligar(self):
         print("Ligando a TV...")
